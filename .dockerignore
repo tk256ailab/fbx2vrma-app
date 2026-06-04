@@ -1,0 +1,13 @@
+node_modules
+dist
+.git
+.DS_Store
+vrm
+*.gltf
+*.bin
+*.vrma
+*.zip
+fbx2vrma-converter/node_modules
+fbx2vrma-converter/dist
+fbx2vrma-converter/.git
+fbx2vrma-converter/FBX2glTF-*

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: fbx2vrma-app
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MAX_FILES
+        value: 10
+      - key: MAX_FILE_SIZE_MB
+        value: 100

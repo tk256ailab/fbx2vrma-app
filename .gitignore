@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+
+# Downloaded converter binaries
+fbx2vrma-converter/FBX2glTF-*
+
+# Conversion temp/output files
+*.gltf
+*.bin
+*.vrma
+*.zip
