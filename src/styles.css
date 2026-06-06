@@ -85,6 +85,38 @@ button:disabled {
   line-height: 1.55;
 }
 
+.repo-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 13px;
+}
+
+.repo-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 34px;
+  border: 1px solid #d1c1ad;
+  border-radius: 8px;
+  padding: 0 10px;
+  color: #3b3028;
+  background: #fffaf1;
+  font-size: 0.86rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition:
+    transform 140ms ease,
+    border-color 140ms ease,
+    background 140ms ease;
+}
+
+.repo-links a:hover {
+  transform: translateY(-1px);
+  border-color: #9e8061;
+  background: #fff4dd;
+}
+
 .workspace-grid {
   display: grid;
   grid-template-columns: minmax(360px, 0.78fr) minmax(520px, 1.22fr);

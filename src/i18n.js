@@ -2,6 +2,7 @@ export const dictionaries = {
   en: {
     appTitle: 'FBX2VRMA Converter',
     appSubtitle: 'Convert humanoid FBX animations into VRMA and preview them on a VRM model.',
+    repositoryLinks: 'Repository links',
     language: '日本語',
     convert: 'Convert',
     converting: 'Converting',
@@ -57,6 +58,7 @@ export const dictionaries = {
   ja: {
     appTitle: 'FBX2VRMA コンバーター',
     appSubtitle: '人型FBXアニメーションをVRMAへ変換し、VRMモデルで確認できます。',
+    repositoryLinks: 'リポジトリリンク',
     language: 'English',
     convert: '変換',
     converting: '変換中',
